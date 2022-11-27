@@ -3,7 +3,7 @@
 
 int size = ReadInt("Введите размер массива: ");
 int[] numbers = new int[size];
-int sum = 0, i = 0;
+int sum = 0, i = 1;
 FillArrayRandomNumbers(numbers, -100, 100);
 
 while (i < numbers.Length)
